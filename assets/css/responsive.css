@@ -1,0 +1,269 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+.single-cicle {
+	margin-right: 20px;
+}
+    .portfolio-filter-menu button {
+	font-size: 12px;
+}
+
+    a.responsive-menu-trigger {
+    display: none;
+}
+ 
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.top-logo-div {
+	z-index: 9;
+	right: 20px;
+	width: 155px;
+	height: 80px;
+    right: 0;
+}
+    .resume-title {
+	text-align: center;
+}
+    .resume-title-left::after {
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+    .resume-title-right::after {
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+    .single-clients-item {
+	max-width: none;
+}
+    .client-section-title {
+	text-align: center;
+}
+    .client-section-title::after {
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+    .work-overview-title {
+	text-align: center;
+}
+    .work-overview-title::after {
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+    ul.nav-menu li a i.fa {
+	font-size: 25px;
+}
+a.responsive-menu-trigger {
+    display: none;
+}
+.testimonial-wrapper.active, .portfolio-wrapper.active, .contact-wrapper.active, .section-resume.active, .testimonial-wrapper.active {
+	width: 100%;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+.blog-section-area.active, .contact-wrapper.active, .testimonial-wrapper.active, .portfolio-wrapper.active, .section-resume.active {
+    width: 100%;
+}
+a.responsive-menu-trigger:before {
+    position: absolute;
+    left: -53px;
+    top: 0;
+    content: "Menu";
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    
+}
+.single-portfolio-item {
+    margin: 0;
+    margin-bottom: 10px;
+}
+    .single-portfolio-item img {
+    width: 100% !important;
+}
+    ul.nav-menu li a i.fa {
+	font-size: 22px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+    .fixed-side-menu {
+	width: 40px;
+}
+ .personal-biograpy p {
+	margin-left: 0;
+}
+    .single-cicle {
+	margin-right: 0px;
+	padding: 40px;
+	margin: 30px 36px;
+}
+    .mono-resume-accordion h4.panel-title a {
+	font-size: 13px;
+}
+    .resume-title {
+	text-align: center;
+}
+    .resume-title-left::after {;
+	left: 0;
+	margin: auto;
+}
+    .resume-title-right::after {
+	right: 0;
+	margin: auto;
+}
+    .portfolio-filter-menu button {
+	padding: 8px 5px;
+	font-size: 12px;
+	margin: 6px 0;
+}
+    .portfolio-filter-menu {
+	text-align: left;
+}
+.header-top-border {
+	display: none;
+}
+.header-search {;
+	display: none;
+}
+a.search-trigger {
+	display: none;
+}
+a.responsive-menu-trigger {
+    display: block;
+    background: #000;
+}
+.fixed-side-menu {
+	height: 0;
+	position: fixed;
+	left: 0;
+	z-index: -1;
+    transition: .3s;
+    display: none;
+}
+.top-logo-div {
+	z-index: 9;
+	right: 20px;
+	width: 130px;
+	height: 65px;
+    right: 0;
+}
+.top-logo-div h1 {
+    padding: 8px 10px;
+    font-size: 22px;
+    margin-top: -5px;
+}
+.respnsive-menu.active{
+        height: 100%;
+        z-index: 9;
+        opacity: .85;
+        display: block;
+    }
+.body-background-color {
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #000;
+	z-index: 9;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	visibility: hidden;
+    transition: .3s
+}
+    .body-background-color.active{
+        opacity: .65;
+        visibility: visible;
+	    background: #000;
+    }
+    footer.footer-wrapper {
+    padding: 15px 0;
+}
+    .copy-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer-wrapper .text-right {
+  text-align: center;
+}
+    .single-overview-item {
+	width: 96%;
+}
+    .single-clients-item {
+	width: 96%;
+	max-width: none;
+}
+    .client-section-title {
+	text-align: center;
+}
+    .client-section-title::after {
+	right: 0;
+	margin: auto;
+}
+    .work-overview-title {
+	text-align: center;
+}
+    .work-overview-title::after {
+	left: 0;
+	margin: auto;
+}
+    .panel-content-left:after {
+    left: 0;
+    top: inherit;
+    bottom: -12px;
+    height: 1px;
+    width: 100%;
+}
+    .testimonial-wrapper {
+    padding-bottom: 130px;
+}
+.user-skills-progress-circle {
+    margin-bottom: 30px;
+}
+.single-blog-item {
+    margin-bottom: 15px;
+}
+.blog-item-content h3 {
+    font-size: 18px;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+    .respnsive-menu.active {
+    overflow: auto;
+    padding-bottom: 78px;
+    width: 60px;
+}
+    .footer-wrapper .text-right {
+    text-align: right;
+    width: 45%;
+    float: right;
+}
+    .copy-text {
+    text-align: left;
+    width: 51%;
+    float: left;
+}
+.top-logo-div {
+	z-index: 9;
+	right: 20px;
+	width: 155px;
+	height: 80px;
+    right: 0;
+}
+.top-logo-div h1 {
+    padding: 8px 10px;
+    font-size: 34px;
+    margin-top: -5px;
+}
+
+}

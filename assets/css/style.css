@@ -1,0 +1,1188 @@
+/*
+===========================================================
+Template Name: Mono - Personal Resume HTML5 Template
+Version: 1.0.1
+Author: LazyCoder17
+Description: Mono Personal Resume HTML5 Template. This template is fully responsive for all devices. Clean and professional coding with well documented. Mono can be use as your personal portfolio, resume or CV template. 
+===========================================================
+
+
+====================== Table Content ======================
+
+1. Base CSS
+
+2. Header Top Border CSS
+
+3. Section Title CSS 
+
+4. Menu CSS 
+
+5. Logo CSS 
+
+6. Home CSS 
+
+7. About CSS 
+
+8. Portfolio CSS
+
+9. Testimonial CSS  
+
+10. Blog CSS 
+
+11. Contact CSS 
+
+12. Footer Area CSS
+
+13. Tooltip CSS
+
+14. Header top search css 
+
+*/
+
+
+/* 
+====================
+1. Base CSS 
+====================
+*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0px solid #333}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: 'Raleway', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.main-body-wrapper{
+    background: #fff;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+/* 
+====================
+2. Header Top Border CSS 
+====================
+*/
+.header-top-border {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    background: #000;
+    z-index: 99;
+}
+
+/* 
+====================
+3. Section Title CSS 
+====================
+*/
+.mono-section-title {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.mono-section-title h2 {
+    margin: 0 0 20px;
+    position: relative;
+}
+
+.mono-section-title h2:after {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #000;
+    width: 65px;
+    height: 2px;
+    content: "";
+    right: 0;
+    margin: auto;
+}
+/* 
+====================
+4. Menu CSS 
+====================
+*/
+.fixed-side-menu {
+    background: #000;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 55px;
+    z-index: 99;
+}
+
+ul.nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 120px;
+}
+
+ul.nav-menu li a {
+    color: #fff;
+    display: block;
+    padding-top: 15px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+ul.nav-menu li a i.fa {
+    font-size: 30px;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 50px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+ul.nav-menu li {
+    border-bottom: 1px solid #3d3d3d;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+ul.nav-menu li a:hover i.fa {
+    background: orangered;
+}
+
+ul.nav-menu li:last-child {
+    border-bottom: 0;
+}
+
+ul.nav-menu li:hover {
+    border-color: orangered;
+}
+a.responsive-menu-trigger {
+	position: absolute;
+	z-index: 999;
+	color: #fff;
+	right: 22px;
+	top: 15px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 3px;
+	display: none;
+	background: #000;
+}
+/* 
+====================
+5. Logo CSS 
+====================
+*/
+.top-logo-div {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    background: #000;
+    padding: 15px 8px;
+    width: 150px;
+    height: 80px;
+}
+.top-logo-div h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 3px solid;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+.top-logo-div img {
+    width: 100%;
+}
+
+/* 
+====================
+6. Home CSS 
+====================
+*/
+.main-body-wrapper {
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 96%;
+    height: 100%;
+    overflow: auto;
+    padding: 120px 0;
+    -mz-padding: 120px 0;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s
+}
+.main-body-wrapper.disable{
+    opacity: 0;
+}
+.main-body-wrapper.active{
+    
+}
+.user-image img {
+    width: 200px;
+    border-radius: 100%;
+    border: 1px solid #000;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.user-image img:hover{
+    border-radius: 10px;
+}
+.user-contact-info {
+    margin-top: 24px;
+}
+
+.user-image {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.single-job-title {
+    line-height: 15px;
+}
+.single-cicle {
+    float: left;
+    position: relative;
+    margin-right: 55px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 15px;
+}
+.single-cicle:last-child {
+    margin-right: 15px;
+}
+.single-cicle span {
+    position: absolute;
+    left: 0;
+    bottom: -45px;
+    font-weight: 700;
+    right: 0;
+    margin: auto;
+    font-size: 17px;
+}
+.personal-info-meta span {
+    font-weight: 700;
+}
+.personal-info {
+    border: 1px solid #000;
+    margin: 20px 0;
+        margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.home-social-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.home-social-list li {
+    display: inline-block;
+}
+.home-social-list li a i.fa {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 3px;
+    margin: 0 3px;
+    border: 1px solid #000;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
+.home-social-list li a i.fa:hover {
+    background: #fff;
+    color: #000;
+}
+.home-social-list {
+    margin: 20px 0;
+}
+.personal-biograpy p {margin-left: 75px;}
+
+.personal-biograpy {
+    margin-bottom: 45px;
+}
+.personal-biograpy h4 {
+    margin-bottom: 40px;
+}
+.single-cicle strong {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    font-size: 20px;
+    line-height: 20px;
+}
+h4.skill-area-title {
+    position: relative;
+    font-size: 28px;
+    padding: 12px 0;
+    text-align: center;
+}
+h4.skill-area-title:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    content: "";
+    height: 2px;
+    width: 50px;
+    margin: auto;
+}
+.user-skills-progress-circle {
+    margin-top: 50px;
+    float: right;
+}
+/*
+====================
+7. About CSS 
+====================
+*/
+
+.section-resume {
+    padding: 110px 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+    opacity: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.section-resume.active {
+    opacity: 1;
+    width: 96%;
+}
+.mono-resume-accordion h4.panel-title {
+    margin: 0;
+    padding: 0;
+}
+
+.mono-resume-accordion h4.panel-title a {
+    display: block;
+    padding: 12px 10px;
+    background: #000;
+    color: #fff;
+    text-align: left;
+    position: relative;
+}
+
+.mono-resume-accordion .panel-heading h4.panel-title {
+    background: none;
+}
+
+.mono-resume-accordion .panel-group .panel-heading {
+    padding: 0;
+    margin-bottom: 9px;
+    border: none;
+}
+
+.mono-resume-accordion .panel-group .panel-default {margin-bottom: 15px;border: none;}
+
+.mono-resume-accordion .panel-group .panel-body {
+    border: 1px solid #000!important;
+}
+.mono-resume-accordion h4.panel-title a i.fa {
+    position: absolute;
+    right: 10px;
+    display: none;
+    top: 0;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+}
+.mono-resume-accordion h4.panel-title a[aria-expanded=true] i.fa.fa-minus {
+    display: block;
+}
+
+.mono-resume-accordion h4.panel-title a[aria-expanded=false] i.fa.fa-plus {
+    display: block;
+}
+.panel-content-left {
+    text-align: left;
+    position: relative;
+}
+.panel-content-left h6 {
+    font-weight: 700;
+}
+.panel-content-left h6
+ span {
+    font-weight: normal;
+}
+
+.panel-content-left:after {
+    position: absolute;
+    right: -16px;
+    top: 0;
+    bottom: -14px;
+    margin: auto;
+    background: #ddd;
+    content: "";
+    height: 135%;
+    width: 1px;
+}
+.resume-title {
+    font-size: 18px;
+    padding: 20px 0 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+.resume-title-left, .resume-title-right {
+    position: relative;
+}
+.resume-title-left:after {
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+    background: #000;
+    content: "";
+    height: 2px;
+    width: 50px;
+}
+.resume-title-right:after {
+    position: absolute;
+    bottom: 35px;
+    background: #000;
+    content: "";
+    height: 2px;
+    width: 50px;
+    left: 0;
+}
+
+/* 
+====================
+8. Portfolio CSS 
+====================
+*/
+
+.portfolio-wrapper {
+    background: #fff;
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 100%;
+    top: 0;
+    overflow: auto;
+    padding: 70px 0 120px;
+    opacity: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.portfolio-wrapper.active{
+    opacity: 1;
+    width: 96%;
+}
+.portfolio-filter-menu {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-filter-menu button {
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    margin-right: 14px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+.portfolio-filter-menu button.active, .portfolio-filter-menu button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.gallery-img {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+.gallery-img:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #000;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 0;
+  opacity: .5;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.single-portfolio-item {
+    margin: -10px;
+    position: relative;
+}
+.portfolio-meta a i.fa {
+    font-size: 22px;
+    color: #fff;
+    border: 1px solid;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+.portfolio-meta a i.fa:hover {
+    color: #000;
+}
+.portfolio-meta {
+    background: orangered;
+    padding: 5px 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: auto;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-align: center;
+    opacity: 0;
+}
+
+.single-portfolio-item:hover .portfolio-meta {
+    opacity: 1;
+    width: 100%;
+}
+.single-portfolio-item:hover .gallery-img:after {
+  width: 100%;
+}
+.gallery-img:before {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  content: "\f00e";
+  font-family: fontawesome;
+  margin: auto;
+  line-height: 40px;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  z-index: 2;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.single-portfolio-item:hover .gallery-img:before {
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+/*
+====================
+9. Testimonial CSS 
+====================
+*/
+.clients-item-bg-1{
+    background-image: url(../img/client/google-logo.png);
+}
+.clients-item-bg-2{
+    background-image: url(../img/client/microsoft.png);
+}
+.clients-item-bg-3{
+    background-image: url(../img/client/NetBSD.png);
+}
+.clients-item-bg-4{
+    background-image: url(../img/client/nike.png);
+}
+
+.testimonial-wrapper {
+    background: #fff;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    overflow: auto;
+    padding: 100px 0;
+    opacity: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.testimonial-wrapper.active{
+    opacity: 1;
+    width: 96%;
+    z-index: 1;
+}
+
+.testimonial-subsection-title h4 {
+    position: relative;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.testimonial-subsection-title h4:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 2px;
+    background: #000;
+    content: "";
+    right: 0;
+    margin: auto;
+    bottom: -30px;
+}
+
+.single-testimonial-item i.fa {
+    font-size: 25px;
+    margin: 0 7px;
+}
+
+.single-testimonial-item {
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testimonial-meta h4 {
+    font-size: 16px;
+}
+
+.testimonial-meta h4 span {
+    display: block;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.testimonial-meta {
+    position: relative;
+    padding-top: 27px;
+}
+
+.testimonial-meta:after {
+    position: absolute;
+    background: #000;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 2px;
+    width: 85px;
+    right: 0;
+    margin: auto;
+}
+
+.testimonial-meta:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    left: 0;
+    position: absolute;
+    top: -4px;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1;
+}
+
+.single-testimonial-item p {
+    margin-bottom: 20px;
+}
+.work-overview-title {
+    text-align: right;
+    margin: 80px 0 30px;
+    position: relative;
+    padding: 5px 0 10px;
+}
+.work-overview-title::after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	height: 2px;
+	background: #000;
+	content: "";
+}
+.single-overview-item {
+	text-align: center;
+	width: 46%;
+    float: left;
+	border: 1px solid #000;
+	color: #222;
+	border-radius: 3px;
+	padding: 20px;
+    margin: 2%;
+}
+.single-overview-item h5 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.single-overview-item i.fa {
+  font-size: 25px;
+}
+.single-overview-item
+ .blue-icon {
+    border: 1px solid #1E9F75;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: #1E9F75;
+    border-radius: 50%;
+    margin-bottom:5px
+}
+.single-overview-item
+ .green-icon {
+    border: 1px solid green;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: green;
+    border-radius: 50%;
+    margin-bottom:5px
+}
+.single-overview-item
+.yellow-icon{
+    border: 1px solid #000;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    margin-bottom:5px
+}
+.single-overview-item
+.red-icon{
+    border: 1px solid red;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: red;
+    border-radius: 50%;
+    margin-bottom:5px
+}
+.single-overview-item p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.client-section-title {
+    position: relative;
+    margin: 80px 0 30px;
+    padding: 5px 0 10px;
+}
+
+.client-section-title:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    content: "";
+    width: 50px;
+    height: 2px;
+}
+.single-clients-item {
+    width: 46%;
+    float: left;
+    margin: 2%;
+    border: 1px solid #000;
+    border-radius: 3px;
+    max-width: 255px;
+    height: 161px;
+    background-size: cover;
+    background-position: center;
+}
+
+.single-clients-item img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+/*
+====================
+10. Blog CSS 
+====================
+*/
+
+.signle-blog-item-bg-1{
+    background-image: url(../img/blog/blog-bg-1.jpg)
+}
+.signle-blog-item-bg-2{
+    background-image: url(../img/blog/blog-bg-2.jpg)
+}
+.signle-blog-item-bg-3{
+    background-image: url(../img/blog/blog-bg-3.jpg)
+}
+
+.blog-section-area {
+    position: fixed;
+    right: 0;
+    width: 0;
+    background: #fff;
+    padding: 100px 0;
+    height: 100%;
+    overflow: auto;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    opacity: 0;
+    
+}
+.blog-section-area.active{
+    width: 96%;
+    opacity: 1;
+    z-index: 1;
+    
+}
+
+.signle-blog-item-bg {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    border: 1px solid #000;
+}
+.signle-blog-item-bg {
+    border-bottom: 0px solid;
+}
+.blog-item-content {
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
+p.blog-meta i.fa {
+    color: #000;
+    margin-right: 5px;
+}
+p.blog-meta a {
+    color: #565656;
+}
+p.blog-meta {
+    font-size: 14px;
+}
+p.blog-meta span {
+    padding-right: 10px;
+}
+p.blog-meta span:last-child {
+    padding-right: 0;
+}
+.blog-item-content h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+a.blog-btn {
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 10px;
+    border-radius: 3px;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
+a.blog-btn:hover {
+    background: #333;
+}
+.single-blog-item:hover .blog-item-content {
+    border-color: #000;
+}
+/*
+====================
+11. Contact CSS 
+====================
+*/
+.contact-wrapper {
+    padding: 90px 0 120px;
+    position: absolute;
+    overflow: auto;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    background: #fff;
+}
+.contact-wrapper.active{
+    width: 96%;
+    opacity: 1;
+        
+}
+.contact-form-area {
+    text-align: center;
+}
+
+.contact-form-area input[type=text], .contact-form-area input[type=email], .contact-form-area input[type=tel] {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.contact-form-area textarea {
+    width: 100%;
+    padding: 10px;
+    height: 130px;
+    border: 1px solid #000;
+}
+.contact-form-area button[type=submit] {
+    border: none;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 3px;
+    margin-top: 30px;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    border: 1px solid #000;
+}
+.contact-form-area button[type=submit]:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/*
+====================
+12. Footer Area CSS
+====================
+*/
+footer.footer-wrapper {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+    bottom: 0;
+    z-index: 9;
+}
+.copy-text p {
+    margin: 0;
+    padding: 0;
+}
+.footer-social-links a
+ i.fa {
+    color: #fff;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-left: 5px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.footer-social-links a i.fa:hover {
+    opacity: .5;
+}
+/* 
+====================
+13. Tooltip CSS
+====================
+*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+}
+
+/* 
+
+Tooltip text 
+
+*/
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    top: 20px;
+    width: auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 13px 25px;
+    border-radius: 3px;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+/* 
+
+Tooltip arrow 
+
+*/
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #000 transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip-right {
+    left: 117%;
+}
+
+/*
+====================
+14. Header top search css 
+====================
+*/
+
+.header-search {
+    position: absolute;
+    right: 0;
+    top: -35px;
+    z-index: 9;
+    width: 250px;
+    opacity: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.header-search.active{
+    top: 35px;
+    opacity: 1;
+    
+}
+.header-search button i.fa {
+    color: #000;
+}
+a.search-trigger.active {
+    opacity: 0;
+    top: 50px;
+}
+.header-search input[type=search] {
+    border: none;
+    width: 93%;
+    padding: 10px 9px;
+    border: 1px solid #000;
+}
+
+.header-search button {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    margin: auto;
+    top: -38px;
+}
+.header-search i.fa-close {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 9px;
+    float: right;
+    margin-right: 19px;
+}
+a.search-trigger {
+    right: 19px;
+    top: 35px;
+    position: absolute;
+    font-size: 17px;
+    color: #fff;
+    z-index: 99;
+    font-weight: 700;
+    border: 1px solid #000;
+    text-align: center;
+    height: unset;
+    background: #000;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
